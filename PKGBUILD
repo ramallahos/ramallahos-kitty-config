@@ -14,6 +14,6 @@ sha256sums=('SKIP')
 package() {
     cd "$pkgname"
     install -d "${pkgdir}/etc/skel/.config/kitty/"
-    install -Dm 644 "kitty.conf" "${pkgdir}/etc/skel/.config/dunst/kitty.conf"
+    install -Dm 644 "kitty.conf" "${pkgdir}/etc/skel/.config/kitty/kitty.conf"
 }
 
